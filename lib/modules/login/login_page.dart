@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                       Padding(
                         padding: EdgeInsets.only(left: 40, right: 40, top: 40),
                         child: SocialLoginButton(onTap: (){
-
+                          print("ola");
                         },),
                       )
                     ],

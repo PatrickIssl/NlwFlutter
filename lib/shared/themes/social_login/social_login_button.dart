@@ -6,7 +6,7 @@ import 'package:nlwflutter/shared/themes/app_text_styles.dart';
 class SocialLoginButton extends StatelessWidget {
 
   final VoidCallback onTap;
-  const SocialLoginButton({key, this.onTap}) : super(key: key);
+  const SocialLoginButton({key, required this.onTap}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
